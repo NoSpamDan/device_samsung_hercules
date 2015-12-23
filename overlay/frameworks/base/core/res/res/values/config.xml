@@ -32,7 +32,7 @@
 
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
-        <item>30</item>
+        <item>15</item>
         <item>150</item>
         <item>1500</item>
         <item>15000</item>
@@ -41,7 +41,7 @@
     <!-- Array of output values for LCD backlight corresponding to the LUX values
          in the config_autoBrightnessLevels array.  This array should have size one greater
          than the size of the config_autoBrightnessLevels array.
-    -->
+         This must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLcdBacklightValues">
         <item>40</item>
         <item>80</item>
@@ -92,6 +92,6 @@
          Empty is viewed as "all".  Only used on devices which
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
-    <string translatable="false" name="config_radio_access_family">GSM|WCDMA</string>
+    <string translatable="false" name="config_radio_access_family">GSM|WCDMA|LTE</string>
 
 </resources>

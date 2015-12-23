@@ -1,0 +1,4 @@
+add_lunch_combo candy_hercules-user
+add_lunch_combo candy_hercules-userdebug
+add_lunch_combo candy_hercules-eng
+
